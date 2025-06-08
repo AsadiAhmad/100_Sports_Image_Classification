@@ -9,8 +9,13 @@ A deep learning project for sport image classification using a custom VGG19-base
   <img src="https://assets.st-note.com/img/1670632589167-x9aAV8lmnH.png" title="Google Colab" alt="Google Colab" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original.svg" title="OpenCV" alt="OpenCV" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" title="Numpy" alt="Numpy" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/TQDM/TQDM.png" title="TQDM" alt="TQDM" width="40" height="40"/>&nbsp;
   <img src="https://www.svgrepo.com/show/373541/cuda.svg" title="CUDA" alt="CUDA" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/pytorch/pytorch.png" title="PyTorach" alt="PyTorach" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/torchvision/torchvision.png" title="TorachVision" alt="TorachVision" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/AsadiAhmad/AsadiAhmad/tree/main/Logo/Kaggle" title="Kaggle" alt="Kaggle" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-original.svg"  title="MatPlotLib" alt="MatPlotLib" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/pillow/pillow.png"  title="pillow" alt="pillow" width="40" height="40"/>&nbsp;
 </div>
 
 - Python : Popular language for implementing Neural Network
