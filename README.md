@@ -58,7 +58,9 @@ We have used VGG19 model. also we freeze the 15th first layer.
 | **Adaptive Pooling**       | `nn.AdaptiveAvgPool2d((7,7))`                   | `torch.nn`                                 |
 | **Flatten Layer**          | `nn.Flatten()`                                  | `torch.nn`                                 |
 
+## 🪪 License
 
+This project is licensed under the MIT License.
 
 
 
