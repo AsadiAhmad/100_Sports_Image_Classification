@@ -1,5 +1,7 @@
 # 100_Sports_Image_Classification
-A deep learning project for sport image classification using a custom VGG19-based architecture with integrated Grad-CAM heatmap visualization for model interpretability.
+
+This project performs classification on 100 sports categories using grayscale images. The core architecture is based on a customized VGG19 pretrained CNN with frozen layers and a new classifier head. The model's interpretability is enhanced using Grad-CAM heatmaps. The dataset is from kaggle.
+
 
 <div display=flex align=center>
   <img src="/Pictures/Classes.png"/>
@@ -61,23 +63,3 @@ We have used VGG19 model. also we freeze the 15th first layer.
 ## 🪪 License
 
 This project is licensed under the MIT License.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
