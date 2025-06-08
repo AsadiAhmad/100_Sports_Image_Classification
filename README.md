@@ -13,7 +13,7 @@ A deep learning project for sport image classification using a custom VGG19-base
   <img src="https://www.svgrepo.com/show/373541/cuda.svg" title="CUDA" alt="CUDA" width="40" height="40"/>&nbsp;
   <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/pytorch/pytorch.png" title="PyTorach" alt="PyTorach" width="40" height="40"/>&nbsp;
   <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/torchvision/torchvision.png" title="TorachVision" alt="TorachVision" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/Kaggle/Kaggle.png" title="Kaggle" alt="Kaggle" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/Kaggle/Kaggle.jpg" title="Kaggle" alt="Kaggle" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-original.svg"  title="MatPlotLib" alt="MatPlotLib" width="40" height="40"/>&nbsp;
   <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/pillow/pillow.png"  title="pillow" alt="pillow" width="40" height="40"/>&nbsp;
 </div>
