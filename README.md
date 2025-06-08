@@ -37,16 +37,28 @@ A deep learning project for sport image classification using a custom VGG19-base
 
 ## 💻 Run the Notebook on Google Colab
 
-You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AsadiAhmad/Gesture-Detection/blob/main/Code/Gesture_Detection.ipynb)
+You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AsadiAhmad/100_Sports_Image_Classification/blob/main/Code/100_Sports_Image_Classification.ipynb)
 
-## Models
+## Structure
 
-We have used caffe Open Pose model. we have the code for donwloading the model.
+We have used VGG19 model. also we freeze the 15th first layer.
 
-```python
-gdown.download(id="1D3ytIZ-ZMMd5MbvVbf2Sn5oZ1L0aQ9IG", output="pose_deploy_linevec_faster_4_stages.prototxt", quiet=False)
-gdown.download(id="1f-fCSTg7qFHRVKGIptyPJsgNwRs4XDsK", output="pose_iter_160000.caffemodel", quiet=False)
-```
+| **Model Type / Technique** | **Used in Your Code**                           | **Library / Source**                       |
+| -------------------------- | ----------------------------------------------- | ------------------------------------------ |
+| **CNN (Convolutional NN)** | `VGG19` as the base architecture                | `torchvision.models`                       |
+| **Pretrained Model**       | `vgg19(weights=VGG19_Weights.DEFAULT)`          | `torchvision.models`                       |
+| **Transfer Learning**      | Using pretrained VGG19 with partial freezing    | `torch.nn`, `torchvision`                  |
+| **Freezing Layers**        | First 15 layers of `vgg.features` frozen        | `torch.nn.Parameter.requires_grad = False` |
+| **Custom NN (Classifier)** | Custom `nn.Sequential` fully connected layers   | `torch.nn`                                 |
+| **Grayscale Input Conv**   | Modified Conv2D to accept grayscale input       | `torch.nn.Conv2d`                          |
+| **Dropout**                | `nn.Dropout`, `nn.Dropout2d` for regularization | `torch.nn`                                 |
+| **Batch Normalization**    | `nn.BatchNorm1d` for stable training            | `torch.nn`                                 |
+| **Activation Function**    | `nn.ReLU` used in classifier                    | `torch.nn`                                 |
+| **Weight Initialization**  | Xavier (Glorot) init in classifier              | `torch.nn.init`                            |
+| **Adaptive Pooling**       | `nn.AdaptiveAvgPool2d((7,7))`                   | `torch.nn`                                 |
+| **Flatten Layer**          | `nn.Flatten()`                                  | `torch.nn`                                 |
+
+
 
 
 
