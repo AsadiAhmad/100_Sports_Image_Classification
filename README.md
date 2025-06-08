@@ -1,6 +1,10 @@
 # 100_Sports_Image_Classification
 A deep learning project for sport image classification using a custom VGG19-based architecture with integrated Grad-CAM heatmap visualization for model interpretability.
 
+<div display=flex align=center>
+  <img src="/Pictures/Classes.png" width="600px"/>
+</div>
+
 ## Tech :hammer_and_wrench: Languages and Tools :
 
 <div>
@@ -30,6 +34,10 @@ A deep learning project for sport image classification using a custom VGG19-base
 - Kaggle: Online platform for data science competitions, datasets, and collaborative coding.
 - Matplotlib: Versatile library for creating static, animated, and interactive plots in Python.
 - Pillow: Python Imaging Library (PIL) fork used for opening, editing, and saving images easily.
+
+## 💻 Run the Notebook on Google Colab
+
+You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AsadiAhmad/Gesture-Detection/blob/main/Code/Gesture_Detection.ipynb)
 
 
 
