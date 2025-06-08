@@ -3,7 +3,7 @@
 This project performs classification on 100 sports categories using grayscale images. The core architecture is based on a customized VGG19 pretrained CNN with frozen layers and a new classifier head. The model's interpretability is enhanced using Grad-CAM heatmaps. The dataset is from kaggle.
 
 <div display=flex align=center>
-  <img src="/Pictures/Classes.png"/>
+  <img src="/Pictures/Sport.png"/>
 </div>
 
 ## Tech :hammer_and_wrench: Languages and Tools :
