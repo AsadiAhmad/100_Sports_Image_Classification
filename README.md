@@ -2,7 +2,7 @@
 A deep learning project for sport image classification using a custom VGG19-based architecture with integrated Grad-CAM heatmap visualization for model interpretability.
 
 <div display=flex align=center>
-  <img src="/Pictures/Classes.png" width="600px"/>
+  <img src="/Pictures/Classes.png"/>
 </div>
 
 ## Tech :hammer_and_wrench: Languages and Tools :
@@ -38,6 +38,15 @@ A deep learning project for sport image classification using a custom VGG19-base
 ## 💻 Run the Notebook on Google Colab
 
 You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AsadiAhmad/Gesture-Detection/blob/main/Code/Gesture_Detection.ipynb)
+
+## Models
+
+We have used caffe Open Pose model. we have the code for donwloading the model.
+
+```python
+gdown.download(id="1D3ytIZ-ZMMd5MbvVbf2Sn5oZ1L0aQ9IG", output="pose_deploy_linevec_faster_4_stages.prototxt", quiet=False)
+gdown.download(id="1f-fCSTg7qFHRVKGIptyPJsgNwRs4XDsK", output="pose_iter_160000.caffemodel", quiet=False)
+```
 
 
 
