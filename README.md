@@ -59,12 +59,31 @@ We have used VGG19 model. also we freeze the 15th first layer.
 | **Adaptive Pooling**       | `nn.AdaptiveAvgPool2d((7,7))`                   | `torch.nn`                                 |
 | **Flatten Layer**          | `nn.Flatten()`                                  | `torch.nn`                                 |
 
+## ⚙️ Training Configuration
+
+- Input Image Size: 512*512
+- Optimizer: `Adam`
+- Loss Function: `CrossEntropyLoss`
+- Epochs: `5`
+- Batch Size: `32`
+- Drop out: `0.5` (for better Generalization)
+- Device: GPU via CUDA (if available)
+
 ## 🗂️ Dataset
 
 The dataset contains images of 100 different sports classes from Kaggle.
 
 - Source: [Kaggle Sports Dataset](https://www.kaggle.com/datasets/gpiosenka/sports-classification)
 - Format: `.jpg` images in folders by class
+
+## 📊 Results
+
+- Training Accuracy: **88.28%** (can go up into 99.99%)
+- Validation Accuracy: **93.20%**
+- Test Accuracy: **94.40%**
+- Training Time: 150 minutes on Colab GPU (Cuda)
+- High Generalization at first epoch (80% test Accuracy)
+
 
 ## 🪪 License
 
