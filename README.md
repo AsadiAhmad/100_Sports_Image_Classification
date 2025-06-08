@@ -18,12 +18,35 @@ A deep learning project for sport image classification using a custom VGG19-base
   <img src="https://github.com/AsadiAhmad/AsadiAhmad/blob/main/Logo/pillow/pillow.png"  title="pillow" alt="pillow" width="40" height="40"/>&nbsp;
 </div>
 
-- Python : Popular language for implementing Neural Network
-- Jupyter Notebook : Best tool for running python cell by cell
-- Google Colab : Best Space for running Jupyter Notebook with hosted server
-- Math : Essential Python library for basic mathematical operations and functions
-- OpenCV : Best Library for working with images
-- Numpy : Best Library for working with arrays in python
-- CUDA : used for NVIDIA GPU acceleration and get better frame rate
-- MatPlotLib : Library for showing the charts in python
-- GDown : Download Resources from Google Drive
+- Python: Popular language for implementing neural networks and AI projects.
+- Jupyter Notebook: Best tool for running Python code cell by cell in an interactive environment.
+- Google Colab: Free cloud platform for running Jupyter Notebooks with GPU/TPU support and no local setup needed.
+- OpenCV: Powerful library for image processing, computer vision, and real-time applications.
+- NumPy: Essential library for numerical operations and array-based computing in Python.
+- TQDM: Lightweight library for adding smart progress bars to loops and iterable tasks.
+- CUDA: NVIDIA's parallel computing platform for accelerating deep learning on GPUs.
+- PyTorch: Deep learning framework known for flexibility, dynamic computation graphs, and strong GPU support.
+- TorchVision: Companion library to PyTorch for image-related deep learning tasks, datasets, and transforms.
+- Kaggle: Online platform for data science competitions, datasets, and collaborative coding.
+- Matplotlib: Versatile library for creating static, animated, and interactive plots in Python.
+- Pillow: Python Imaging Library (PIL) fork used for opening, editing, and saving images easily.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
