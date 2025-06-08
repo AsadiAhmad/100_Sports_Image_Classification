@@ -2,7 +2,6 @@
 
 This project performs classification on 100 sports categories using grayscale images. The core architecture is based on a customized VGG19 pretrained CNN with frozen layers and a new classifier head. The model's interpretability is enhanced using Grad-CAM heatmaps. The dataset is from kaggle.
 
-
 <div display=flex align=center>
   <img src="/Pictures/Classes.png"/>
 </div>
@@ -59,6 +58,13 @@ We have used VGG19 model. also we freeze the 15th first layer.
 | **Weight Initialization**  | Xavier (Glorot) init in classifier              | `torch.nn.init`                            |
 | **Adaptive Pooling**       | `nn.AdaptiveAvgPool2d((7,7))`                   | `torch.nn`                                 |
 | **Flatten Layer**          | `nn.Flatten()`                                  | `torch.nn`                                 |
+
+## 🗂️ Dataset
+
+The dataset contains images of 100 different sports classes from Kaggle.
+
+- Source: [Kaggle Sports Dataset](https://www.kaggle.com/datasets/gpiosenka/sports-classification)
+- Format: `.jpg` images in folders by class
 
 ## 🪪 License
 
